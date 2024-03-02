@@ -1,10 +1,14 @@
-
+import Calculator from "./Components/Calculator";
+import CalculatorProvider from "./Context/CalcContext";
+import React from 'react'
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <CalculatorProvider>
+      <div className="App">
+        <Calculator />
+      </div>
+    </CalculatorProvider>
   );
 }
 

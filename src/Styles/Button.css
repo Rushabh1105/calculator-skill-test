@@ -1,0 +1,26 @@
+
+.button{
+    background-color: #dbd4d4;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+}
+
+.button:hover{
+    border: 2px solid black ;
+}
+
+.side{
+    background-color: orange;
+}
+
+.zero{
+    grid-column: 1/3;
+}
