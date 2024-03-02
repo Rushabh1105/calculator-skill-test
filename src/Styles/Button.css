@@ -1,4 +1,5 @@
 
+/* Styling for button component */
 .button{
     background-color: #dbd4d4;
     height: 40px;
@@ -13,14 +14,17 @@
     border: none;
 }
 
+/* hover effect on button */
 .button:hover{
     border: 2px solid black ;
 }
 
+/* styling for last column of buttons */
 .side{
     background-color: orange;
 }
 
+/* styling for zero button */
 .zero{
     grid-column: 1/3;
 }
